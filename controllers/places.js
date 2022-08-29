@@ -1,5 +1,3 @@
-
-
 const router = require('express').Router()
 const db = require('../models')
 
@@ -122,5 +120,6 @@ router.delete('/:id/comment/:commentId', (req, res) => {
             res.render('error404')
         })
 })
+
 
 module.exports = router
