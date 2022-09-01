@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const placeSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  pic: { type: String, default: '/Users/bzhao/Desktop/Module6/RestRantTen/public/images/Maqluba.jpeg'},
+  pic: { type: String, default: '/Users/michaelmanley/rest-rant/public/images/coffee-cat.jpg'},
   cuisines: { type: String, required: true },
   cuisines: { type: String, required: true },
   city: { type: String, default: 'Anytown' },
